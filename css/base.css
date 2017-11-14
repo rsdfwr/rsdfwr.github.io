@@ -1,0 +1,55 @@
+/* CSS Document */
+/*公共样式*/
+body,div,p,h1,h2,h3,h4,h5,h6,span,ul,li,ol,dl,dt,dd,img,a,i,form,input,nav,header,aside,article,section,figure,figcaption,video,audio
+{ margin:0; padding:0;}
+
+h1,h2,h3,h4,h5,h6,i,b,em,strong{font-size:100%; font-weight:normal; font-style:normal;}
+
+ul,li,ol{ list-style:none;}
+
+fieldset,img{ border:0 none; display:block;/*去掉上下两张图之间缝隙      把行元素转为块元素*/}
+
+table { border-collapse: collapse;/*表格中边线重叠*/}
+
+:focus{ outline:none;}/*表单中获得焦点时去蓝
+
+/* 超链接 */
+
+a{color: #484848; text-decoration: none;}
+a:link{color: #484848; text-decoration: none; }
+a:visited{color: #484848; text-decoration: none; }
+a:hover{ color: #248dcc; text-decoration: none;}
+a:active{ color: #ff3b3c; text-decoration:none;}
+
+/* Clearfix,避免因子元素浮动而导致的父元素高度缺失能问题 自适应高度 */
+.clearfix:after { clear: both; content: ''; display: block; height: 0; line-height: 0; visibility: hidden;}
+.clearfix { zoom:1;}
+
+.clear{ clear:both;}
+
+body{ font-size:12px; font-family: "微软雅黑", Arial; color:#484848;}
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/iconfont.eot');
+  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/iconfont.woff') format('woff'),
+  url('../fonts/iconfont.ttf') format('truetype'),
+  url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.p1{
+  font-size: 16px;
+  margin-bottom: 5px
+  color: #484848;
+}
+.p2{
+  font-size: 14px;
+  color: #f40;
+}
